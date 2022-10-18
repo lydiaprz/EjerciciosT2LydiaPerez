@@ -67,9 +67,9 @@ public class Ejercicio01 {
             segundo=(numero/100)%10;//cogemos las centenas
             primero=numero/1000;//cogemos las unidades de millar
             if (primero==cuarto&&segundo==tercero){
-                System.out.println("El numero es capicuo.");
+                System.out.println("El numero es capicúa.");
             }else {
-                System.out.println("El numero no es capicuo.");
+                System.out.println("El numero no es capicúa.");
             }
         }
     }
