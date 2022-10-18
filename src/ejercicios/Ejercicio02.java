@@ -2,6 +2,12 @@ package ejercicios;
 
 import java.util.Scanner;
 
+/**
+ * las pruebas realizadas son
+ * 49112077 -> Q
+ * 29440210 -> A
+ * en ambas se ejecuta el codigo correctamente
+ */
 public class Ejercicio02 {
     public static void main(String[] args) {
         //declaramos las variables
