@@ -40,7 +40,8 @@ public class Ejercicio03 {
         else {
             comidaComprada/=animales;
             comida/=animales;
-            if (comidaComprada<=comida){
+            System.out.println("Cada animal consume "+comida+" kg.");
+            if (comidaComprada>=comida){
                 System.out.println("Dispone de comida.");
             }else {
                 System.out.println("No dispone de comida.");
