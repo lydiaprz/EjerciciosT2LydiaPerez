@@ -24,7 +24,7 @@ import java.util.Scanner;
 public class Ejercicio01 {
     public static void main(String[] args) {
         //declaramos las variables
-        int numero, //se guardara el numero introducido por el usuario
+        int numero, //se guardará el número introducido por el usuario
                 //variables para guardar cada cifra y poderlas comparar
                 primero,
                 segundo,
@@ -36,29 +36,29 @@ public class Ejercicio01 {
         //pedimos al usuario el numero
         System.out.println("Introduzca un numero entren 0 y 9999: ");
         numero= sc.nextInt();
-        //comprobamos el numero
+        //comprobamos el número
         if (numero<0||numero>9999){ //si no esta dentro del rango manda un mensaje
             System.out.println("El numero no pertenece al rango.");
         } else if (numero>=0&&numero<10) {
             //tiene una cifra
-            System.out.println("El numero es capicuo.");
+            System.out.println("El numero es capicúa.");
         } else if (numero>=10&&numero<100) {
             //tiene dos cifras
             primero=numero/10; //cogemos las decenas
             segundo=numero%10; //cogemos las unidades
             if (primero==segundo){
-                System.out.println("El numero es capicuo.");
+                System.out.println("El numero es capicúa.");
             }else {
-                System.out.println("El numero no es capicuo.");
+                System.out.println("El numero no es capicúa.");
             }
         } else if (numero>=100&&numero<1000) {
             //tiene tres cifras
             tercero=numero%10; //cogemos las unidades
             primero=numero/100;//cogemos las centenas
             if (primero==tercero){
-                System.out.println("El numero es capicuo.");
+                System.out.println("El numero es capicúa.");
             }else{
-                System.out.println("El numero no es capicuo.");
+                System.out.println("El numero no es capicúa.");
             }
         }else{
             //tiene cuatro cifras
